@@ -48,7 +48,16 @@ public class Product {
     }
 
     public static void main(String[] args) {
-        ArrayList<String>ProductArrayList = new ArrayList<>();
+        ArrayList<String>Products = new ArrayList<>();
+
+
+        Products.add("Product 1");
+
+        System.out.println("Current Products: ");
+
+        for (String product : Products) {
+            System.out.println(product);
+        }
     }
 
 }
