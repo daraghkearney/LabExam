@@ -1,4 +1,6 @@
 package ie.atu.week7;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 public class Product {
     String productId;
@@ -44,4 +46,9 @@ public class Product {
     public void setQuantity(int quantity) {
         this.quantity = quantity;
     }
+
+    public static void main(String[] args) {
+        ArrayList<String>ProductArrayList = new ArrayList<>();
+    }
+
 }
